@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Navbar, ProfileContainer, Image, Title, Link, Links } from './Style.jsx';
 import { NavLink } from 'react-router-dom';
-import Logo from '../../../assets/logo_flor.png';
+import Logo from '../../../assets/logo.svg';
 
 // Navbar com o nome App por causa do styled-components que dava dando erro por causa do mesmo nome
 export function App() {
@@ -11,7 +11,7 @@ export function App() {
                 <ProfileContainer>
                     <Image src={Logo} />
                     <Title>
-                        VERY FLORES
+                        LIBER
                     </Title> 
                 </ProfileContainer>
                 <Links>
